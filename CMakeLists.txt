@@ -18,10 +18,6 @@ set(SOURCE_FILES
         Network.cpp
         Network.h
         PrepareData.cpp
-        PrepareData.h
-        ImageData.cpp
-        ImageData.h
-        )
+        PrepareData.h)
 
 add_executable(MLP ${SOURCE_FILES})
-target_link_libraries(MLP png)

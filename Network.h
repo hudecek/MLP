@@ -10,7 +10,6 @@
 #include <memory>
 #include "PrepareData.h"
 #include "Activations.h"
-#include "ImageData.h"
 
 using Layer = std::vector<float>;
 using Weights = std::vector<std::vector<float>>;
@@ -25,11 +24,6 @@ public:
     float calc_error(std::ifstream& inputs, std::ifstream& outputs, PrepareData& prep);
     void train(unsigned long no_epochs, unsigned long minibatch_size, PrepareData& prep, unsigned num_run);
     void test(std::string& inputs_location, std::string& outputs_location, PrepareData& prep);
-
-    //my additional functions for Implemetation of Neural Networks class
-    void train_patterns(double learning_rate, unsigned long num_run, ImageData& data);
-    void pattern_evaluate(std::vector<float> v);
-    float output_pattern_error(ImageData& data);
 
     std::vector<unsigned> definition;
     float momentum = 0.5;

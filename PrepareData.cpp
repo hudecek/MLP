@@ -73,9 +73,13 @@ std::vector<std::vector<std::vector<float>>> PrepareData::get_next(std::ifstream
             });
 
             values = DataHelpers::split(out, ',');
+            std::transform(values.begin(), values.end(), result[1].begin(), [](const std::string& val) {
+                return std::stof(val);
+            });
+            /*
             for (const auto &value : values) {
                 result[1] = DataHelpers::output_num_to_category(std::stof(value));
-            }
+            }*/
             res[i++] = result;
         }
     }
