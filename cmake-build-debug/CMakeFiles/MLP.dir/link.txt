@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/MLP.dir/main.cpp.o CMakeFiles/MLP.dir/Network.cpp.o CMakeFiles/MLP.dir/PrepareData.cpp.o CMakeFiles/MLP.dir/ImageData.cpp.o  -o MLP -lpng 

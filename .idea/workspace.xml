@@ -1,0 +1,1350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="MLP" targetName="MLP" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0be8ed57-7e2b-44e7-99d5-908d4abc8081" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/MLPpure.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Activations.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataHelpers.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Helpers.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ImageData.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ImageData.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MNIST_DATA/mnist_test_labels.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MNIST_DATA/mnist_test_vectors.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MNIST_DATA/mnist_train_labels.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MNIST_DATA/mnist_train_vectors.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MNIST_DATA/xor_in.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MNIST_DATA/xor_out.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Network.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Network.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrepareData.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrepareData.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdC/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdCXX/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MLP.dir/CXX.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MLP.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MLP.dir/ImageData.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MLP.dir/Network.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MLP.dir/PrepareData.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MLP.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MLP.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MLP.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MLP.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MLP.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MLP.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MLP.dir/main.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MLP.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/MLP" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/MLP.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/MLP.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/actualTestPredictions" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/trainPredictions" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img_data/my_test.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img_data/test_img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img_data/test_img_save.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img_data/test_out_img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/network" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/AUTHORS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/BUGS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/COPYING" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/ChangeLog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/Doxyfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/INSTALL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/NEWS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/TODO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/color.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/common.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/config.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/consumer.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/convert_color_space.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/end_info.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/error.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/example/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/example/pixel_generator.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/ga_pixel.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/generator.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/gray_pixel.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/image.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/image_info.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/index_pixel.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/info.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/info_base.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/io_base.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/packed_pixel.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/palette.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/pixel_buffer.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/pixel_traits.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/png.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/reader.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/require_color_space.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/rgb_pixel.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/rgba_pixel.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/solid_pixel_buffer.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/streaming_base.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/tRNS.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/gray_16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/gray_packed_1.png.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/gray_packed_2.png.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/gray_packed_4.png.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/palette1.png.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/palette2.png.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/palette4.png.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/palette8.png.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/palette8_tRNS.png.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi0g01.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi0g01.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi0g01.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi0g01.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi0g01.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi0g01.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi0g01.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi0g01.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi0g02.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi0g02.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi0g02.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi0g02.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi0g02.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi0g02.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi0g02.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi0g02.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi0g04.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi0g04.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi0g04.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi0g04.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi0g04.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi0g04.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi0g04.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi0g04.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi0g08.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi0g08.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi0g08.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi0g08.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi0g08.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi0g08.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi0g08.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi0g08.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi0g16.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi0g16.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi0g16.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi0g16.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi0g16.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi0g16.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi0g16.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi0g16.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi2c08.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi2c08.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi2c08.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi2c08.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi2c08.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi2c08.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi2c08.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi2c08.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi2c16.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi2c16.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi2c16.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi2c16.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi2c16.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi2c16.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi2c16.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi2c16.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi3p01.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi3p01.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi3p01.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi3p01.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi3p01.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi3p01.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi3p01.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi3p01.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi3p02.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi3p02.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi3p02.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi3p02.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi3p02.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi3p02.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi3p02.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi3p02.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi3p04.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi3p04.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi3p04.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi3p04.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi3p04.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi3p04.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi3p04.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi3p04.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi3p08.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi3p08.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi3p08.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi3p08.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi3p08.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi3p08.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi3p08.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi3p08.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi4a08.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi4a08.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi4a08.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi4a08.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi4a08.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi4a08.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi4a08.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi4a08.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi4a16.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi4a16.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi4a16.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi4a16.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi4a16.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi4a16.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi4a16.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi4a16.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi6a08.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi6a08.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi6a08.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi6a08.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi6a08.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi6a08.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi6a08.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi6a08.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi6a16.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi6a16.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi6a16.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi6a16.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi6a16.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi6a16.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi6a16.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basi6a16.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn0g01.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn0g01.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn0g01.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn0g01.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn0g01.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn0g01.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn0g01.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn0g01.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn0g01.png.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn0g02.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn0g02.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn0g02.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn0g02.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn0g02.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn0g02.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn0g02.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn0g02.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn0g02.png.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn0g04.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn0g04.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn0g04.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn0g04.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn0g04.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn0g04.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn0g04.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn0g04.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn0g04.png.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn0g08.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn0g08.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn0g08.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn0g08.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn0g08.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn0g08.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn0g08.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn0g08.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn0g16.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn0g16.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn0g16.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn0g16.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn0g16.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn0g16.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn0g16.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn0g16.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn2c08.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn2c08.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn2c08.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn2c08.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn2c08.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn2c08.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn2c08.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn2c08.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn2c16.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn2c16.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn2c16.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn2c16.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn2c16.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn2c16.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn2c16.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn2c16.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn3p01.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn3p01.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn3p01.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn3p01.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn3p01.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn3p01.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn3p01.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn3p01.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn3p02.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn3p02.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn3p02.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn3p02.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn3p02.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn3p02.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn3p02.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn3p02.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn3p04.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn3p04.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn3p04.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn3p04.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn3p04.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn3p04.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn3p04.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn3p04.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn3p08.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn3p08.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn3p08.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn3p08.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn3p08.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn3p08.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn3p08.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn3p08.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn4a08.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn4a08.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn4a08.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn4a08.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn4a08.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn4a08.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn4a08.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn4a08.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn4a16.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn4a16.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn4a16.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn4a16.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn4a16.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn4a16.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn4a16.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn4a16.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn6a08.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn6a08.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn6a08.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn6a08.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn6a08.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn6a08.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn6a08.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn6a08.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn6a16.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn6a16.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn6a16.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn6a16.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn6a16.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn6a16.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn6a16.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/basn6a16.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/bgai4a08.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/bgai4a08.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/bgai4a08.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/bgai4a08.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/bgai4a08.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/bgai4a08.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/bgai4a08.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/bgai4a08.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/bgai4a16.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/bgai4a16.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/bgai4a16.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/bgai4a16.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/bgai4a16.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/bgai4a16.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/bgai4a16.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/bgai4a16.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/bgan6a08.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/bgan6a08.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/bgan6a08.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/bgan6a08.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/bgan6a08.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/bgan6a08.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/bgan6a08.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/bgan6a08.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/bgan6a16.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/bgan6a16.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/bgan6a16.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/bgan6a16.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/bgan6a16.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/bgan6a16.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/bgan6a16.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/bgan6a16.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/bgbn4a08.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/bgbn4a08.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/bgbn4a08.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/bgbn4a08.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/bgbn4a08.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/bgbn4a08.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/bgbn4a08.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/bgbn4a08.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/bggn4a16.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/bggn4a16.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/bggn4a16.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/bggn4a16.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/bggn4a16.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/bggn4a16.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/bggn4a16.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/bggn4a16.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/bgwn6a08.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/bgwn6a08.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/bgwn6a08.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/bgwn6a08.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/bgwn6a08.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/bgwn6a08.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/bgwn6a08.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/bgwn6a08.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/bgyn6a16.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/bgyn6a16.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/bgyn6a16.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/bgyn6a16.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/bgyn6a16.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/bgyn6a16.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/bgyn6a16.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/bgyn6a16.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f00n0g08.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f00n0g08.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f00n0g08.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f00n0g08.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f00n0g08.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f00n0g08.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f00n0g08.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f00n0g08.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f00n2c08.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f00n2c08.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f00n2c08.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f00n2c08.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f00n2c08.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f00n2c08.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f00n2c08.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f00n2c08.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f01n0g08.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f01n0g08.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f01n0g08.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f01n0g08.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f01n0g08.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f01n0g08.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f01n0g08.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f01n0g08.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f01n2c08.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f01n2c08.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f01n2c08.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f01n2c08.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f01n2c08.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f01n2c08.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f01n2c08.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f01n2c08.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f02n0g08.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f02n0g08.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f02n0g08.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f02n0g08.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f02n0g08.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f02n0g08.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f02n0g08.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f02n0g08.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f02n2c08.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f02n2c08.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f02n2c08.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f02n2c08.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f02n2c08.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f02n2c08.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f02n2c08.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f02n2c08.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f03n0g08.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f03n0g08.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f03n0g08.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f03n0g08.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f03n0g08.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f03n0g08.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f03n0g08.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f03n0g08.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f03n2c08.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f03n2c08.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f03n2c08.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f03n2c08.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f03n2c08.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f03n2c08.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f03n2c08.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f03n2c08.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f04n0g08.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f04n0g08.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f04n0g08.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f04n0g08.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f04n0g08.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f04n0g08.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f04n0g08.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f04n0g08.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f04n2c08.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f04n2c08.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f04n2c08.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f04n2c08.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f04n2c08.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f04n2c08.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f04n2c08.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/f04n2c08.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s01i3p01.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s01i3p01.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s01i3p01.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s01i3p01.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s01i3p01.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s01i3p01.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s01i3p01.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s01i3p01.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s01n3p01.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s01n3p01.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s01n3p01.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s01n3p01.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s01n3p01.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s01n3p01.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s01n3p01.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s01n3p01.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s02i3p01.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s02i3p01.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s02i3p01.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s02i3p01.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s02i3p01.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s02i3p01.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s02i3p01.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s02i3p01.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s02n3p01.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s02n3p01.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s02n3p01.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s02n3p01.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s02n3p01.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s02n3p01.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s02n3p01.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s02n3p01.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s03i3p01.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s03i3p01.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s03i3p01.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s03i3p01.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s03i3p01.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s03i3p01.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s03i3p01.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s03i3p01.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s03n3p01.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s03n3p01.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s03n3p01.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s03n3p01.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s03n3p01.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s03n3p01.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s03n3p01.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s03n3p01.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s04i3p01.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s04i3p01.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s04i3p01.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s04i3p01.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s04i3p01.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s04i3p01.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s04i3p01.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s04i3p01.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s04n3p01.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s04n3p01.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s04n3p01.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s04n3p01.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s04n3p01.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s04n3p01.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s04n3p01.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s04n3p01.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s05i3p02.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s05i3p02.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s05i3p02.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s05i3p02.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s05i3p02.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s05i3p02.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s05i3p02.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s05i3p02.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s05n3p02.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s05n3p02.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s05n3p02.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s05n3p02.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s05n3p02.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s05n3p02.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s05n3p02.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s05n3p02.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s06i3p02.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s06i3p02.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s06i3p02.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s06i3p02.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s06i3p02.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s06i3p02.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s06i3p02.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s06i3p02.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s06n3p02.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s06n3p02.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s06n3p02.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s06n3p02.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s06n3p02.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s06n3p02.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s06n3p02.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s06n3p02.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s07i3p02.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s07i3p02.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s07i3p02.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s07i3p02.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s07i3p02.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s07i3p02.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s07i3p02.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s07i3p02.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s07n3p02.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s07n3p02.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s07n3p02.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s07n3p02.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s07n3p02.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s07n3p02.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s07n3p02.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s07n3p02.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s08i3p02.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s08i3p02.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s08i3p02.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s08i3p02.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s08i3p02.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s08i3p02.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s08i3p02.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s08i3p02.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s08n3p02.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s08n3p02.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s08n3p02.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s08n3p02.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s08n3p02.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s08n3p02.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s08n3p02.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s08n3p02.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s09i3p02.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s09i3p02.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s09i3p02.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s09i3p02.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s09i3p02.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s09i3p02.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s09i3p02.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s09i3p02.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s09n3p02.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s09n3p02.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s09n3p02.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s09n3p02.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s09n3p02.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s09n3p02.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s09n3p02.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s09n3p02.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s32i3p04.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s32i3p04.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s32i3p04.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s32i3p04.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s32i3p04.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s32i3p04.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s32i3p04.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s32i3p04.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s32n3p04.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s32n3p04.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s32n3p04.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s32n3p04.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s32n3p04.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s32n3p04.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s32n3p04.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s32n3p04.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s33i3p04.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s33i3p04.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s33i3p04.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s33i3p04.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s33i3p04.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s33i3p04.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s33i3p04.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s33i3p04.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s33n3p04.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s33n3p04.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s33n3p04.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s33n3p04.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s33n3p04.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s33n3p04.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s33n3p04.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s33n3p04.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s34i3p04.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s34i3p04.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s34i3p04.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s34i3p04.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s34i3p04.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s34i3p04.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s34i3p04.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s34i3p04.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s34n3p04.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s34n3p04.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s34n3p04.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s34n3p04.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s34n3p04.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s34n3p04.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s34n3p04.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s34n3p04.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s35i3p04.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s35i3p04.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s35i3p04.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s35i3p04.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s35i3p04.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s35i3p04.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s35i3p04.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s35i3p04.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s35n3p04.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s35n3p04.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s35n3p04.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s35n3p04.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s35n3p04.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s35n3p04.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s35n3p04.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s35n3p04.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s36i3p04.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s36i3p04.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s36i3p04.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s36i3p04.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s36i3p04.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s36i3p04.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s36i3p04.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s36i3p04.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s36n3p04.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s36n3p04.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s36n3p04.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s36n3p04.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s36n3p04.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s36n3p04.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s36n3p04.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s36n3p04.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s37i3p04.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s37i3p04.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s37i3p04.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s37i3p04.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s37i3p04.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s37i3p04.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s37i3p04.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s37i3p04.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s37n3p04.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s37n3p04.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s37n3p04.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s37n3p04.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s37n3p04.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s37n3p04.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s37n3p04.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s37n3p04.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s38i3p04.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s38i3p04.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s38i3p04.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s38i3p04.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s38i3p04.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s38i3p04.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s38i3p04.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s38i3p04.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s38n3p04.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s38n3p04.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s38n3p04.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s38n3p04.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s38n3p04.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s38n3p04.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s38n3p04.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s38n3p04.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s39i3p04.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s39i3p04.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s39i3p04.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s39i3p04.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s39i3p04.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s39i3p04.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s39i3p04.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s39i3p04.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s39n3p04.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s39n3p04.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s39n3p04.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s39n3p04.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s39n3p04.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s39n3p04.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s39n3p04.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s39n3p04.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s40i3p04.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s40i3p04.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s40i3p04.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s40i3p04.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s40i3p04.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s40i3p04.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s40i3p04.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s40i3p04.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s40n3p04.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s40n3p04.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s40n3p04.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s40n3p04.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s40n3p04.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s40n3p04.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s40n3p04.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/s40n3p04.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tbbn1g04.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tbbn1g04.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tbbn1g04.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tbbn1g04.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tbbn1g04.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tbbn1g04.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tbbn1g04.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tbbn1g04.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tbbn2c16.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tbbn2c16.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tbbn2c16.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tbbn2c16.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tbbn2c16.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tbbn2c16.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tbbn2c16.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tbbn2c16.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tbbn3p08.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tbbn3p08.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tbbn3p08.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tbbn3p08.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tbbn3p08.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tbbn3p08.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tbbn3p08.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tbbn3p08.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tbgn2c16.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tbgn2c16.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tbgn2c16.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tbgn2c16.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tbgn2c16.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tbgn2c16.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tbgn2c16.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tbgn2c16.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tbgn3p08.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tbgn3p08.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tbgn3p08.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tbgn3p08.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tbgn3p08.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tbgn3p08.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tbgn3p08.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tbgn3p08.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tbrn2c08.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tbrn2c08.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tbrn2c08.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tbrn2c08.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tbrn2c08.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tbrn2c08.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tbrn2c08.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tbrn2c08.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tbwn1g16.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tbwn1g16.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tbwn1g16.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tbwn1g16.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tbwn1g16.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tbwn1g16.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tbwn1g16.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tbwn1g16.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tbwn3p08.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tbwn3p08.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tbwn3p08.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tbwn3p08.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tbwn3p08.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tbwn3p08.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tbwn3p08.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tbwn3p08.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tbyn3p08.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tbyn3p08.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tbyn3p08.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tbyn3p08.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tbyn3p08.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tbyn3p08.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tbyn3p08.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tbyn3p08.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tp0n1g08.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tp0n1g08.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tp0n1g08.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tp0n1g08.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tp0n1g08.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tp0n1g08.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tp0n1g08.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tp0n1g08.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tp0n2c08.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tp0n2c08.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tp0n2c08.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tp0n2c08.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tp0n2c08.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tp0n2c08.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tp0n2c08.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tp0n2c08.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tp0n3p08.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tp0n3p08.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tp0n3p08.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tp0n3p08.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tp0n3p08.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tp0n3p08.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tp0n3p08.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tp0n3p08.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tp1n3p08.png.GA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tp1n3p08.png.GA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tp1n3p08.png.GRAY.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tp1n3p08.png.GRAY.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tp1n3p08.png.RGB.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tp1n3p08.png.RGB.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tp1n3p08.png.RGBA.16.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/cmp/pngsuite/tp1n3p08.png.RGBA.8.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/convert_color_space.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/dump.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/generate_gray_packed.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/generate_palette.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/basi0g01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/basi0g02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/basi0g04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/basi0g08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/basi0g16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/basi2c08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/basi2c16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/basi3p01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/basi3p02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/basi3p04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/basi3p08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/basi4a08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/basi4a16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/basi6a08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/basi6a16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/basn0g01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/basn0g02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/basn0g04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/basn0g08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/basn0g16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/basn2c08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/basn2c16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/basn3p01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/basn3p02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/basn3p04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/basn3p08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/basn4a08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/basn4a16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/basn6a08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/basn6a16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/bgai4a08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/bgai4a16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/bgan6a08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/bgan6a16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/bgbn4a08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/bggn4a16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/bgwn6a08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/bgyn6a16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/f00n0g08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/f00n2c08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/f01n0g08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/f01n2c08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/f02n0g08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/f02n2c08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/f03n0g08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/f03n2c08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/f04n0g08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/f04n2c08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/pngsuite.doc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/s01i3p01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/s01n3p01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/s02i3p01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/s02n3p01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/s03i3p01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/s03n3p01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/s04i3p01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/s04n3p01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/s05i3p02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/s05n3p02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/s06i3p02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/s06n3p02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/s07i3p02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/s07n3p02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/s08i3p02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/s08n3p02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/s09i3p02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/s09n3p02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/s32i3p04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/s32n3p04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/s33i3p04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/s33n3p04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/s34i3p04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/s34n3p04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/s35i3p04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/s35n3p04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/s36i3p04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/s36n3p04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/s37i3p04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/s37n3p04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/s38i3p04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/s38n3p04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/s39i3p04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/s39n3p04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/s40i3p04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/s40n3p04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/tbbn1g04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/tbbn2c16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/tbbn3p08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/tbgn2c16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/tbgn3p08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/tbrn2c08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/tbwn1g16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/tbwn3p08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/tbyn3p08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/tp0n1g08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/tp0n2c08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/tp0n3p08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/tp1n3p08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/unused/ccwn2c08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/unused/ccwn3p08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/unused/cdfn2c08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/unused/cdhn2c08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/unused/cdsn2c08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/unused/cdun2c08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/unused/ch1n3p04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/unused/ch2n3p08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/unused/cm0n0g04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/unused/cm7n0g04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/unused/cm9n0g04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/unused/cs3n2c16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/unused/cs3n3p08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/unused/cs5n2c08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/unused/cs5n3p08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/unused/cs8n2c08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/unused/cs8n3p08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/unused/ct0n0g04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/unused/ct1n0g04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/unused/ctzn0g04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/unused/g03n0g16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/unused/g03n2c08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/unused/g03n3p04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/unused/g04n0g16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/unused/g04n2c08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/unused/g04n3p04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/unused/g05n0g16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/unused/g05n2c08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/unused/g05n3p04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/unused/g07n0g16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/unused/g07n2c08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/unused/g07n3p04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/unused/g10n0g16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/unused/g10n2c08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/unused/g10n3p04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/unused/g25n0g16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/unused/g25n2c08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/unused/g25n3p04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/unused/oi1n0g16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/unused/oi1n2c16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/unused/oi2n0g16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/unused/oi2n2c16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/unused/oi4n0g16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/unused/oi4n2c16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/unused/oi9n0g16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/unused/oi9n2c16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/unused/pp0n2c16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/unused/pp0n6a08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/unused/ps1n0g08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/unused/ps1n2c16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/unused/ps2n0g08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/unused/ps2n2c16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/unused/z00n2c08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/unused/z03n2c08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/unused/z06n2c08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/pngsuite/unused/z09n2c08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/read_write_gray_packed.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/read_write_param.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/test.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/test/write_gray_16.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/types.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/png++/writer.hpp" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FUSProjectUsageTrigger">
+    <session id="896127265">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cpp" value="3" />
+          <entry key="csv" value="1" />
+          <entry key="h" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="ObjectiveC" value="4" />
+          <entry key="PLAIN_TEXT" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cpp" value="368" />
+          <entry key="h" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="ObjectiveC" value="377" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Network.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="653">
+              <caret line="248" column="14" selection-start-line="248" selection-start-column="14" selection-end-line="248" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PrepareData.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="301">
+              <caret line="76" column="45" selection-start-line="76" selection-start-column="45" selection-end-line="76" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DataHelpers.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="295">
+              <caret line="28" column="15" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>= 0</find>
+      <find>= 1</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/DataHelpers.h" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="960" />
+    <option name="y" value="-1" />
+    <option name="width" value="960" />
+    <option name="height" value="1061" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MLP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MLPpure" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MLP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MLPpure" type="462c0819:PsiDirectoryNode" />
+              <item name="MNIST_DATA" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.MLP">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MLP" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MLP" TARGET_NAME="MLP" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MLP" RUN_TARGET_NAME="MLP">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Build All" />
+      <item itemvalue="Application.MLP" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0be8ed57-7e2b-44e7-99d5-908d4abc8081" name="Default Changelist" comment="" />
+      <created>1543357753885</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1543357753885</updated>
+      <workItem from="1543357755184" duration="1316000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1316000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-2" y="-19" width="1924" height="1101" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" weight="0.32994923" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32994923" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="CMake" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33028457" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>26</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/MNIST_DATA/mnist_train_labels.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PrepareData.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="76" column="45" selection-start-line="76" selection-start-column="45" selection-end-line="76" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataHelpers.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="28" column="15" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Network.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="653">
+          <caret line="248" column="14" selection-start-line="248" selection-start-column="14" selection-end-line="248" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
